@@ -8,6 +8,10 @@
       margin-top: 60px;
     }
 
+    li>ul,li>ol {
+      list-style-type: lower-alpha;
+    }
+
     /* add stickiness to wrapper */
     .sticky {
       position: fixed;
@@ -21,6 +25,11 @@
     }
 
     /* Fix position of pesky anchors */
+    .post-title {
+      margin-top: 45px;
+      font-size: 32px;
+    }
+
     :target::before {
       content: "";
       display: block;
@@ -39,8 +48,8 @@
       /*color: #31708f;*/
       background-color: #eef;
       border-color: #eef;
+      padding: 10px;
     }
-
   </style>
 </head>
 {%- include head.html -%}
