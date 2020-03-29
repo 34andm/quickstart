@@ -1,6 +1,6 @@
 ---
 layout: page
-title: For Administrators
+title: Administrators
 permalink: /admin/
 ---
 The administrator quickstart is intended for system administrators who want to:
