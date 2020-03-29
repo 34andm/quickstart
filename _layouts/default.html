@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  <style>
+    /* Override some stuff from the main theme to make it prettier */
+    .home {
+      margin-top: 60px;
+    }
+
+    /* add stickiness to wrapper */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .wrapper {
+      background: white;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    /* Fix position of pesky anchors */
+    :target::before {
+      content: "";
+      display: block;
+      height: 60px;
+      margin: -60px 0 0;
+    }
+
+    /* Space the alerts */
+    .alert {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    /* Style the alerts */
+    .alert-info {
+      /*color: #31708f;*/
+      background-color: #eef;
+      border-color: #eef;
+    }
+
+  </style>
+</head>
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+  <!-- Add script to fix header -->
+  <script src="../assets/sticky.js"></script>
+
+</body>
+
+</html>
