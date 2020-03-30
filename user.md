@@ -14,7 +14,7 @@ The user quickstart describes how users can connect to the ownCloud server using
 
 3. Select **Get** and follow the instructions to install the app.
 
-4. After the app is installed, select the ownCloud icon (<img src="../assets/owncloud.png" alt="image of the owncloud icon" height="20">).
+4. Open the app.
 
 5. Select **Add account** and enter the URL of the ownCloud server.
 
