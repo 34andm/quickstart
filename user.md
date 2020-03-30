@@ -4,7 +4,7 @@ title: Users
 permalink: /user/
 ---
 
-The user quickstart describes how users can connect to the Owncloud server using the iOS mobile client. The task in this section require that you have administrative privileges to install and configure apps on your iOS device.
+The user quickstart describes how users can connect to the ownCloud server using the iOS mobile client. The task in this section requires that you have administrative privileges to install and configure apps on your iOS device.
 
 ## Connecting to an ownCloud Server
 
